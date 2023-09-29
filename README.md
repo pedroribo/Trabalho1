@@ -1,0 +1,1 @@
+O progama "trabalho1.c", ao ser executado, irá pedir um valor para a array. A partir disso, as funções "function1", "function2" e "function3" irão atuar nos elementos da array, de forma que a função "function1" adiciona 1 aos elementos da array, a "function2" adiciona 2, e a "function3" adiciona 3.
