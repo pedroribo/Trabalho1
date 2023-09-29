@@ -1,34 +1,8 @@
 #include <stdio.h>
 
-double function1(double array[], int n) {
-    double arrayum[n];
-    int i;
-    for (int i = 0; i < n; ++i){
-        arrayum[i] = array[i] + 1;
-        printf("%lf ", arrayum[i]);
-    }
-    return 0;
-}
-
-double function2(double array[], int n) {
-    double arraydois[n];
-    int i;
-    for (int i = 0; i < n; ++i){
-        arraydois[i] = array[i] + 2;
-        printf("%lf ", arraydois[i]);
-    }
-    return 0;
-}
-
-double function3(double array[], int n) {
-    double arraytres[n];
-    int i;
-    for (int i = 0; i < n; ++i){
-        arraytres[i] = array[i] + 3;
-        printf("%lf ", arraytres[i]);
-    }
-    return 0;
-}
+#include "function1.h"
+#include "function2.h"
+#include "function3.h"
 
 int main() {
     printf("SEL0456 Trabalho 1\n");
